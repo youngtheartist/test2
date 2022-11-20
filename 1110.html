@@ -1,0 +1,1843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>砼行者</title>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <style>
+        /* PC端排版 */
+        .background{width: 40vw; height: 90vh;}
+        .content {width: 52vw; height: 90vh;}
+        .container {width: 42vw}
+        .placeholder{min-width: 29.5%}
+
+        .item1{height: 113vw;}
+        .picture{width:80vw; height: 113vw;}
+        .picture2{height: 160vh;width: 90vh;}
+        .picture3{height: 80vh;width: 80vh;}        
+        .item2{height: 40vw;}
+        .para{line-height: 9vw; font-size: 4vw}
+
+        .item3{height: 113vw; margin:-110vw 20vw 0 20vw;}
+
+        /* 移动端排版 */
+        @media screen and (max-width: 480px) {
+            .placeholder {
+                min-width: 0;
+                width: 0;
+            }
+            .background {
+                width: 100vw;
+                height: 100vh;
+            }
+            .content {
+                width: 120vw;
+                height: 100vh;
+            }
+            .container{
+                width:100vw
+            }
+            .item1{
+                height: 120vh;
+            }
+            .item3 {
+                height: 120vh;
+            }
+            .picture{
+                height: 120vh;
+                width: 85vh;
+            }
+            .picture2{
+                height: 150vh;
+                width: 80vh;
+            }
+            .picture3{
+                height: 80vh;
+                width: 80vh;
+            }
+            .item2{
+                height: 40vh;
+            }
+            .para{
+                line-height: 9vh;
+                font-size: 6vh;
+            }
+
+            .item3{
+                margin: -125vh 20vh 0 20vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<section style="display: flex; flex-wrap:nowrap;justify-content: center">
+    <!--  占位符  -->
+    <section class="placeholder">
+    </section>
+
+    <section class="background"
+             style="line-height: 0;background:#000 ; pointer-events: none; overflow: hidden; margin: 0px auto;  font-size: 0px; visibility: visible;border-radius: 10px;">
+
+        <!--  Part I  -->
+        <!-- 星星背景-不需調整  -->
+        <section style="height: 0;">
+            <svg viewBox="0 0 1080 2087">
+                <g>
+                    <animate attributeName='opacity' begin='0' repeatCount="indefinite" values="0;1;0" dur="2s"
+                             fill="freeze"></animate>
+                    <foreignObject style="" x="10" y="980" transform="scale(1)" width="216" height="228">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F0.png);"
+                             viewBox="0 0 216 228"></svg>
+                    </foreignObject>
+                </g>
+                <g>
+                    <animate attributeName='opacity' begin='0.4s' repeatCount="indefinite" values="0;1;0" dur="2s"
+                             fill="freeze"></animate>
+                    <foreignObject style="" x="100" y="100" transform="scale(0.5)" width="216" height="228">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F0.png);"
+                             viewBox="0 0 216 228"></svg>
+                    </foreignObject>
+                </g>
+
+                <g>
+                    <animate attributeName='opacity' begin='0.1s' repeatCount="indefinite" values="0;1;0" dur="2s"
+                             fill="freeze"></animate>
+                    <foreignObject style="" x="500" y="220" transform="scale(0.7)" width="216" height="228">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F0.png);"
+                             viewBox="0 0 216 228"></svg>
+                    </foreignObject>
+                </g>
+                <g>
+                    <animate attributeName='opacity' begin='0.3s' repeatCount="indefinite" values="0;1;0" dur="2s"
+                             fill="freeze"></animate>
+                    <foreignObject style="" x="80" y="320" transform="scale(1)" width="216" height="228">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F0.png);"
+                             viewBox="0 0 216 228"></svg>
+                    </foreignObject>
+                </g>
+                <g>
+                    <animate attributeName='opacity' begin='0.17s' repeatCount="indefinite" values="0;1;0" dur="2s"
+                             fill="freeze"></animate>
+                    <foreignObject style="" x="1080" y="1280" transform="scale(0.5)" width="216" height="228">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F0.png);"
+                             viewBox="0 0 216 228"></svg>
+                    </foreignObject>
+                </g>
+                <g>
+                    <animate attributeName='opacity' begin='0.7s' repeatCount="indefinite" values="0;1;0" dur="2s"
+                             fill="freeze"></animate>
+                    <foreignObject style="" x="700" y="820" transform="scale(0.59)" width="216" height="228">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F0.png);"
+                             viewBox="0 0 216 228"></svg>
+                    </foreignObject>
+                </g>
+                <g>
+                    <animate attributeName='opacity' begin='0.2s' repeatCount="indefinite" values="0;1;0" dur="2s"
+                             fill="freeze"></animate>
+                    <foreignObject style="" x="800" y="620" transform="scale(0.6)" width="216" height="228">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F0.png);"
+                             viewBox="0 0 216 228"></svg>
+                    </foreignObject>
+                </g>
+
+                <g>
+                    <animate attributeName='opacity' begin='0.4s' repeatCount="indefinite" values="0;1;0" dur="2s"
+                             fill="freeze"></animate>
+                    <foreignObject style="" x="1220" y="420" transform="scale(0.68)" width="216" height="228">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F0.png);"
+                             viewBox="0 0 216 228"></svg>
+                    </foreignObject>
+                </g>
+
+                <g>
+                    <animate attributeName='opacity' begin='0.32s' repeatCount="indefinite" values="0;1;0" dur="2s"
+                             fill="freeze"></animate>
+                    <foreignObject style="" x="1120" y="100" transform="scale(0.58)" width="216" height="228">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F0.png);"
+                             viewBox="0 0 216 228"></svg>
+                    </foreignObject>
+                </g>
+                <g>
+                    <animate attributeName='opacity' begin='0.52s' repeatCount="indefinite" values="0;1;0" dur="2s"
+                             fill="freeze"></animate>
+                    <foreignObject style="" x="720" y="2500" transform="scale(0.68)" width="216" height="228">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F0.png);"
+                             viewBox="0 0 216 228"></svg>
+                    </foreignObject>
+                </g>
+                <g>
+                    <animate attributeName='opacity' begin='0.12s' repeatCount="indefinite" values="0;1;0" dur="2s"
+                             fill="freeze"></animate>
+                    <foreignObject style="" x="420" y="2512" transform="scale(0.78)" width="216" height="228">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F0.png);"
+                             viewBox="0 0 216 228"></svg>
+                    </foreignObject>
+                </g>
+                <g>
+                    <animate attributeName='opacity' begin='0.52s' repeatCount="indefinite" values="0;1;0" dur="2s"
+                             fill="freeze"></animate>
+                    <foreignObject style="" x="220" y="2312" transform="scale(0.7)" width="216" height="228">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F0.png);"
+                             viewBox="0 0 216 228"></svg>
+                    </foreignObject>
+                </g>
+                <g>
+                    <animate attributeName='opacity' begin='0.12s' repeatCount="indefinite" values="0;1;0" dur="2s"
+                             fill="freeze"></animate>
+                    <foreignObject style="" x="920" y="2212" transform="scale(0.6)" width="216" height="228">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F0.png);"
+                             viewBox="0 0 216 228"></svg>
+                    </foreignObject>
+                </g>
+
+                <g>
+                    <animate attributeName='opacity' begin='0.32s' repeatCount="indefinite" values="0;1;0" dur="2s"
+                             fill="freeze"></animate>
+                    <foreignObject style="" x="1420" y="2312" transform="scale(0.6)" width="216" height="228">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F0.png);"
+                             viewBox="0 0 216 228"></svg>
+                    </foreignObject>
+                </g>
+
+                <!--流星 -->
+                <g>
+                    <animateTransform attributeName='transform' type="translate" begin='0' dur="5s"
+                                      values="0 0;-2000 1500;-2000 1500" repeatCount="indefinite"></animateTransform>
+                    <foreignObject style="" x="4820" y="-800" transform="scale(0.15)" width="1000" height="1000">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F%E6%B5%81%E6%98%9F.png);"
+                             viewBox="0 0 1000 1000"></svg>
+                    </foreignObject>
+                </g>
+
+                <g>
+                    <animateTransform attributeName='transform' type="translate" begin='0' dur="3s"
+                                      values="0 0;-2000 1500;-2000 1500" repeatCount="indefinite"></animateTransform>
+                    <foreignObject style="" x="5620" y="-800" transform="scale(0.15)" width="1000" height="1000">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F%E6%B5%81%E6%98%9F.png);"
+                             viewBox="0 0 1000 1000"></svg>
+                    </foreignObject>
+                </g>
+
+
+                <g>
+                    <animateTransform attributeName='transform' type="translate" begin='0.5s' dur="4s"
+                                      values="0 0;-2000 1500;-2000 1500" repeatCount="indefinite"></animateTransform>
+                    <foreignObject style="" x="6620" y="-800" transform="scale(0.15)" width="1000" height="1000">
+                        <svg style="display: inline-block;width: 100%;vertical-align: top;background-size:100% 100%;background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F%E6%B5%81%E6%98%9F.png);"
+                             viewBox="0 0 1000 1000"></svg>
+                    </foreignObject>
+                </g>
+
+            </svg>
+        </section>
+
+        <!--  Part II  -->
+        <!--  在此放置圖片  -->
+        <!-- 滚动视窗框 -->
+        <section class="container"
+                style="perspective: 1px;overflow-y: scroll;visibility: visible;margin:0 auto;pointer-events:visible;">
+            <!-- 3d包裹层 高度用来撑开可视高度 flex布局-->
+            <section class="content"
+                    style="margin:0 0vw;display:flex; flex-wrap: wrap;max-width: none !important;visibility: visible;white-space:nowrap;transform-style: preserve-3d;justify-content: center;">
+
+
+
+
+                <!--    文字：item2     -->
+                <section class="item2"
+                        style="margin: 0 40vw; transform: translateZ(-0.8px) scale(0.6);">
+                    <section class="para"
+                            style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                            又是相似的一晚，你还在熬夜复习<br>
+                            不知怎的，大脑开始停摆，视线越发模糊<br>
+                            无数梦境从发丝隙里倾泻而出<br>
+                            <br>
+                            【——滴，滴滴滴——】<br>
+                            【——正在建构中——】<br>
+                            【——建构已完成——】<br>
+                    </section>
+                </section>
+
+                <!--    图片：item1     -->
+                <!--    2     -->
+                <section class="item1"
+                        style="margin: 10vh 40vw 0; transform: translateZ(-1px) scale(1.1);">
+                    <!--   模糊边缘  -->
+                    <section class="picture"
+                             style="margin-top: 0vw;    position: absolute;
+                             content: '';
+                             width: 100%;
+                             height: 100%;
+                             top: 0;
+                             left: 0;
+                             box-shadow:0 0 3vh 3vw #000000 inset;">
+                    </section>
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    2-2     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.6px) scale(1.1);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F2-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    2-3     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.4px) scale(1.1);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/2-3.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+
+                <!--    文字：item2     -->
+                <section class="item2"
+                        style="margin: 10vh 40vw 0; transform: translateZ(-0.8px) scale(0.6);">
+                    <section class="para"
+                            style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                            光怪陆离、陆离光怪<br>
+                            五彩斑斓、斑斓五彩<br>
+                            一瞬间，你仿佛就望穿了时空尽头：<br>
+                            食梦貘、西装鼬、飞笔猫、巨角鹿……还有<br>
+                            一杯咖啡？！<br>
+                    </section>
+                </section>
+
+                <!--    图片：item1     -->
+                <!--    3-1     -->
+                <section class="item1"
+                        style="margin: 10vh 40vw 0; transform: translateZ(-1px) scale(1.1);">
+                <!--   模糊边缘  -->
+                    <section class="picture"
+                             style="margin-top: 0vw;    position: absolute;
+                             content: '';
+                             width: 100%;
+                             height: 100%;
+                             top: 0;
+                             left: 0;
+                             box-shadow:0 0 3vh 3vw #000000 inset;">
+                    </section>
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/3-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                    
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    3-2     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.6px) scale(0.9);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/3-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    3-3     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.4px) scale(1.0);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/3-3.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                 <!--    视差素材：item3     -->
+                <!--    3-4     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.3px) scale(1.0);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/3-4.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                 <!--    视差素材：item3     -->
+                <!--    3-5     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.2px) scale(1.0);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/3-5.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                 <!--    视差素材：item3     -->
+                <!--    3-6     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.2px) scale(0.9);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/3-6.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>                
+                <!--    文字：item2     -->
+                <section class="item2"
+                        style="margin: -10vh 40vw 0; transform: translateZ(-0.8px) scale(0.6);">
+                    <section class="para"
+                            style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                            迷糊中，你拿起了杯子<br>
+                            氤氲的热气里仿佛还带着混凝土的清香<br>
+                            你一口饮尽，回味良久<br>
+                    </section>
+                </section>
+
+                <!--    图片：item1     -->
+                <!--    4-1     -->
+                <section class="item1"
+                        style="margin: 5vh 40vw 0; transform: translateZ(-1px) scale(1.0);">
+                <!--   模糊边缘  -->
+                    <section class="picture"
+                             style="margin-top: 0vw;    position: absolute;
+                             content: '';
+                             width: 100%;
+                             height: 100%;
+                             top: 0;
+                             left: 0;
+                             box-shadow:0 0 3vh 3vw #000000 inset;">
+                    </section>
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/4-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    4-2     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.8px) scale(0.9);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/4-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+ 
+                <!--    视差素材：item3     -->
+                <!--    4-3     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.6px) scale(1.0);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/4-3.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    文字：item2     -->
+                <section class="item2"
+                        style="margin: 10vh 40vw 0vh; transform: translateZ(-0.8px) scale(0.6);">
+                    <section class="para"
+                            style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                            “感谢您的品尝，<br>
+                            请支付：【一亿元】”<br>
+                            什么东西？！<br>
+                            <br>
+                            你陡然清醒，寻声看去<br>
+                            一个店长模样的棕发男子正笑眼抬手，指着杯底<br>
+                            “诺，你自己看”<br>
+                    </section>
+                </section>
+                <!--    图片：item1     -->
+                <!--    5-1     -->
+                <section class="item1"
+                        style="margin: 10vh 40vw 0; transform: translateZ(-1px) scale(1.0);">
+                    <!--   模糊边缘  -->
+                    <section class="picture"
+                             style="margin-top: 0vw;    position: absolute;
+                             content: '';
+                             width: 100%;
+                             height: 100%;
+                             top: 0;
+                             left: 0;
+                             box-shadow:0 0 3vh 3vw #000000 inset;">
+                    </section>
+
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/5-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    5-2     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.6px) scale(0.8);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/5-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    5-3     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.4px) scale(0.9);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/5-3.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    文字：item2     -->
+                <section class="item2"
+                        style="margin: 10vh 40vw 0vh; transform: translateZ(-0.8px) scale(0.6);">
+                    <section class="para"
+                            style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                            似乎早料到你身无分文<br>
+                            他信手拈出一页纸，又凭空按出一张证<br>
+                            “那么，【与我契约吧】”<br>
+                    </section>
+                </section>
+
+                <!--    图片：item1     -->
+                <!--    6-1     -->
+                <section class="item1"
+                        style="margin: 10vh 40vw 0; transform: translateZ(-1px) scale(1.0);">
+                    <!--   模糊边缘  -->
+                    <section class="picture"
+                             style="margin-top: 0vw;    position: absolute;
+                             content: '';
+                             width: 100%;
+                             height: 100%;
+                             top: 0;
+                             left: 0;
+                             box-shadow:0 0 3vh 3vw #000000 inset;">
+                    </section>                        
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/6-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    6-2     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.8px) scale(1.0);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/6-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+ 
+                <!--    视差素材：item3     -->
+                <!--    6-3     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.6px) scale(1.1);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/6-3.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                 <!--    文字：item2     -->
+                <section class="item2"
+                        style="margin: 10vh 40vw 0vh; transform: translateZ(-0.8px) scale(0.6);">
+                    <section class="para"
+                            style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                            你没有办法，只好签上字<br>
+                            接过扫帚和围兜，成为了这家咖啡店的临时员工<br>
+                            原来他叫砼尼，你嘀咕着<br>
+                            【怎么有点耳熟】<br>
+                    </section>
+                </section>
+
+                <!--    图片：item1     -->
+                <!--    1     -->
+                <section class="item1"
+                        style="margin: 0 40vw 0; transform: translateZ(-1px) scale(1.1);">
+                    <!--   模糊边缘  -->
+                    <section class="picture"
+                             style="margin-top: 0vw;    position: absolute;
+                             content: '';
+                             width: 100%;
+                             height: 100%;
+                             top: 0;
+                             left: 0;
+                             box-shadow:0 0 3vh 3vw #000000 inset;">
+                    </section>                        
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                 <!--    文字：item2     -->
+                <section class="item2"
+                        style="margin: 10vh 40vw 0vh; transform: translateZ(-0.8px) scale(0.6);">
+                    <section class="para"
+                            style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                            店长嘱咐过，帘后的房间还未修装<br>
+                            “先不要进去哦”<br>
+                            你满口答应下来，转身就掀起一角帘幕<br> 
+                    </section>
+                </section>
+
+                <!--    图片：item1     -->
+                <!--   7-1     -->
+                <section class="item1"
+                        style="margin: 0 40vw 0; transform: translateZ(-1px) scale(1.1);">
+                    <!--   模糊边缘  -->
+                    <section class="picture"
+                             style="margin-top: 0vw;    position: absolute;
+                             content: '';
+                             width: 100%;
+                             height: 100%;
+                             top: 0;
+                             left: 0;
+                             box-shadow:0 0 20px 20px #000000 inset;">
+                    </section>                        
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/7-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    7-2     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.8px) scale(1.0);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/7-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    7-3     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.6px) scale(1.0);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/7-3.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+ 
+                 <!--    文字：item2     -->
+                 <section class="item2"
+                 style="margin: 5vh 40vw 15vh; transform: translateZ(-0.8px) scale(0.6);">
+                  <section class="para"
+                           style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                           镜花水月、水月镜花<br>
+                           斗转星移、星移斗转<br>
+                           眼前的一切都化作闪烁的像素<br>
+                           无数个巨大的选项框缓缓弹出<br>
+                           【YES/NO】<br>
+                           鬼使神差地，你选择了前者<br><br>
+                           一个聊天界面出现在你面前<br>
+                  </section>
+                 </section>
+
+                <!--    图片：item1     -->
+                <!--   像素1-1     -->
+                <section class="item1"
+                        style="margin: -10vh 40vw 20vh; transform: translateZ(-1px) scale(1.0);">
+                    <!--   模糊边缘  -->
+                    <section class="picture"
+                             style="margin-top: 0vw;    position: absolute;
+                             content: '';
+                             width: 100%;
+                             height: 100%;
+                             top: 0;
+                             left: 0;
+                             box-shadow:0 0 3vh 3vw #000000 inset;">
+                    </section>
+
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%83%8F%E7%B4%A01-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    像素1-2     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.9px) scale(0.8);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%83%8F%E7%B4%A01-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    像素1-3     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.9px) scale(0.8);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%83%8F%E7%B4%A01-3.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    像素1-4     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.8px) scale(1.1);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%83%8F%E7%B4%A01-4.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    像素1-5     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.7px) scale(1.0);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%83%8F%E7%B4%A01-5.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    像素1-6     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.7px) scale(1.1);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%83%8F%E7%B4%A01-6.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    像素1-7     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.6px) scale(1.0);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%83%8F%E7%B4%A01-7.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    图片：item1     -->
+                <!--   像素2-1     -->
+                <section class="item1"
+                        style="margin: 0 40vw 0vh; transform: translateZ(-1px) scale(1.0);">
+                    <!--   模糊边缘  -->
+                    <section class="picture"
+                             style="margin-top: 0vw;    position: absolute;
+                             content: '';
+                             width: 100%;
+                             height: 100%;
+                             top: 0;
+                             left: 0;
+                             box-shadow:0 0 10px 10px #000000 inset;">
+                    </section>
+
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%83%8F%E7%B4%A02-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    像素2-2     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.9px) scale(0.9);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%83%8F%E7%B4%A02-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    像素2-3     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.8px) scale(0.8);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%83%8F%E7%B4%A02-3.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    像素2-4     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.6px) translateY(5vh) scale(0.8);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%83%8F%E7%B4%A02-4.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    像素2-5     -->
+                <section class="item3"
+                         style=" transform: translateZ(-0.6px) scale(0.8);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%83%8F%E7%B4%A02-5.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--   点击切换聊天框     -->             
+                <section name="preview-34" 
+                         style="-webkit-touch-callout:none;user-select:text;overflow: hidden;text-align: center;line-height: 0;border-radius:3vw;margin-top:40vh ;transform: translateZ(-1.0px) scale(1.5);">
+                 <!--P6-->   
+                    <section style="height:0;"> 
+                        <svg viewBox="0 0 1080 2680" 
+                           preserveAspectRatio="xMinYMin meet" 
+                           style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E8%81%8A%E5%A4%A9%E6%A1%866.PNG);
+                           background-size: 100% auto;background-repeat: no-repeat;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);"
+                            width="100%" 
+                            opacity="1">
+                      </svg>
+                    </section>
+                 <!--P5-->   
+                    <section style="height: 0;line-height: 0;border-radius:20px;">
+                      <svg viewBox="0 0 1080 2680" 
+                           preserveAspectRatio="xMinYMin meet" 
+                           style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E8%81%8A%E5%A4%A9%E6%A1%865.PNG);
+                           background-size: 100% auto;background-repeat: no-repeat;width: 100%;
+                           transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);" 
+                           width="100%" 
+                           opacity="1">
+                          <animate attributeName="opacity"
+                                   begin="click" 
+                                   restart="never" 
+                                   dur="0.001s" 
+                                   from="1" to="0" 
+                                   fill="freeze">
+                          </animate>
+                          <animate attributeName="height" 
+                                   begin="click+0.001s" 
+                                   restart="never" 
+                                   dur="0.01s" to="0" 
+                                   fill="freeze">
+                          </animate>
+                      </svg>
+                    </section>
+                     <!--P4-->  
+                    <section style="height: 0;line-height: 0;border-radius:20px;">
+                        <svg viewBox="0 0 1080 2680" 
+                             preserveAspectRatio="xMinYMin meet" style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E8%81%8A%E5%A4%A9%E6%A1%864.PNG);
+                             background-size: 100% auto;background-repeat: no-repeat;width: 100%;
+                             transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);" width="100%" opacity="1">
+                              <animate attributeName="opacity"
+                                       begin="click" 
+                                       restart="never" 
+                                       dur="0.001s"
+                                       from="1" to="0" 
+                                       fill="freeze">
+                              </animate>
+                              <animate attributeName="height" 
+                                       begin="click+0.001s" 
+                                       restart="never" 
+                                       dur="0.01s" to="0" 
+                                       fill="freeze">
+                              </animate>
+                        </svg>
+                    </section>
+                    <!--P3-->  
+                    <section style="height: 0;line-height: 0;border-radius:20px;">
+                        <svg viewBox="0 0 1080 2680" 
+                             preserveAspectRatio="xMinYMin meet" style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E8%81%8A%E5%A4%A9%E6%A1%863.PNG);
+                             background-size: 100% auto;background-repeat: no-repeat;width: 100%;
+                             transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);" width="100%" opacity="1">
+                              <animate attributeName="opacity"
+                                       begin="click" 
+                                       restart="never" 
+                                       dur="0.001s"
+                                       from="1" to="0" 
+                                       fill="freeze">
+                              </animate>
+                              <animate attributeName="height" 
+                                       begin="click+0.001s" 
+                                       restart="never" 
+                                       dur="0.01s" to="0" 
+                                       fill="freeze">
+                              </animate>
+                        </svg>
+                    </section>
+                 <!--P2-->  
+                    <section style="height: 0;line-height: 0;border-radius:20px;">
+                        <svg viewBox="0 0 1080 2680" 
+                             preserveAspectRatio="xMinYMin meet" style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E8%81%8A%E5%A4%A9%E6%A1%862.PNG);
+                             background-size: 100% auto;background-repeat: no-repeat;width: 100%;
+                             transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);" width="100%" opacity="1">
+                              <animate attributeName="opacity"
+                                       begin="click" 
+                                       restart="never" 
+                                       dur="0.001s"
+                                       from="1" to="0" 
+                                       fill="freeze">
+                              </animate>
+                              <animate attributeName="height" 
+                                       begin="click+0.001s" 
+                                       restart="never" 
+                                       dur="0.01s" to="0" 
+                                       fill="freeze">
+                              </animate>
+                        </svg>
+                    </section>
+                 <!--P1-->  
+                    <section>
+                      <svg viewBox="0 0 1080 2335" 
+                           preserveAspectRatio="xMinYMin meet" style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E8%81%8A%E5%A4%A9%E6%A1%861.PNG);background-size: 100% auto;
+                           background-repeat: no-repeat;width: 100%;
+                           transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);pointer-events: none;border-radius:20px;" 
+                           
+                           width="100%" 
+                           opacity="1">
+                         <rect width="1080" 
+                              height="2080" 
+                              opacity="0" 
+                              pointer-events="none"
+                              border-radius="20">
+                         </rect>
+                         <rect width="1080" 
+                               height="1080" 
+                               opacity="0"    
+                               pointer-events="auto"
+                               border-radius="20">
+                               
+                               <animate attributeName="height" 
+                                        begin="click+0.001s"   
+                                        restart="never" 
+                                        dur="0.01s" to="0" 
+                                        fill="freeze">
+                               </animate>
+                         </rect>
+                         <animate attributeName="opacity" 
+                                  begin="click" 
+                                  restart="never" 
+                                  dur="0.001s" 
+                                  from="1" to="0" 
+                                  fill="freeze">
+                         </animate>
+                       </svg>
+                    </section>
+                  </section>
+                 <!--    文字：item2     -->
+                <section class="item2"
+                        style="margin: 10vh 40vw 0vh; transform: translateZ(-0.8px) scale(0.6);">
+                    <section class="para"
+                            style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                            “勇敢的少年哦，这个世界就是一个游戏<br>
+                            通关了它，你自然就能离开”<br>
+                            你深信不疑，开始搬砖升级<br>
+                            每升一级，你就尝试离开<br>
+                            (点击砼仔升级)<br>
+                    </section>
+                </section>
+
+                <!--   点击切换升级(倒序插入图片)     -->                
+                <section name="preview-34" style="-webkit-touch-callout:none;user-select:text;overflow: hidden;text-align: center;line-height: 0;border-radius:3vw;margin-top:40vh ;transform: translateZ(-1.0px) scale(1.5);">
+                 <!--失败提示-->   
+                    <section style="height:0;margin-top: -1px"> 
+                        <svg viewBox="0 0 1080 600" 
+                           preserveAspectRatio="xMinYMin meet" 
+                           style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%A4%B1%E8%B4%A5%E9%80%9A%E7%9F%A5.PNG);
+                           background-size: 100% auto;background-repeat: no-repeat;width: 100%;"
+                            width="100%" 
+                            opacity="1"
+                            >
+                      </svg>
+                    </section>
+                 <!--100级-->   
+                    <section style="height: 0;line-height: 0">
+                      <svg viewBox="0 0 1080 1080" 
+                           preserveAspectRatio="xMinYMin meet" 
+                           style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%83%8F%E7%B4%A0%E5%8D%87%E7%BA%A7%E5%A4%A7-4.png);
+                           background-size: 100% auto;background-repeat: no-repeat;width: 100%;
+                           transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);" 
+                           width="100%" 
+                           opacity="1">
+                          <animate attributeName="opacity"
+                                   begin="click" 
+                                   restart="never" 
+                                   dur="0.001s" 
+                                   from="1" to="0" 
+                                   fill="freeze">
+                          </animate>
+                          <animate attributeName="height" 
+                                   begin="click+0.001s" 
+                                   restart="never" 
+                                   dur="0.01s" to="0" 
+                                   fill="freeze">
+                          </animate>
+                      </svg>
+                    </section>
+                 <!--3级-->  
+                    <section style="height: 0;line-height: 0">
+                        <svg viewBox="0 0 1080 1080" 
+                             preserveAspectRatio="xMinYMin meet" style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%83%8F%E7%B4%A0%E5%8D%87%E7%BA%A7%E5%A4%A7-3.png);
+                             background-size: 100% auto;background-repeat: no-repeat;width: 100%;
+                             transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);" width="100%" opacity="1">
+                              <animate attributeName="opacity"
+                                       begin="click" 
+                                       restart="never" 
+                                       dur="0.001s"
+                                       from="1" to="0" 
+                                       fill="freeze">
+                              </animate>
+                              <animate attributeName="height" 
+                                       begin="click+0.001s" 
+                                       restart="never" 
+                                       dur="0.01s" to="0" 
+                                       fill="freeze">
+                              </animate>
+                        </svg>
+                    </section>
+                 <!--2级-->  
+                    <section style="height: 0;line-height: 0">
+                      <svg viewBox="0 0 1080 1080" 
+                           preserveAspectRatio="xMinYMin meet" style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%83%8F%E7%B4%A0%E5%8D%87%E7%BA%A7%E5%A4%A7-2.png);
+                           background-size: 100% auto;background-repeat: no-repeat;width: 100%;
+                           transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);" width="100%" opacity="1">
+                            <animate attributeName="opacity"
+                                     begin="click" 
+                                     restart="never" 
+                                     dur="0.001s"
+                                     from="1" to="0" 
+                                     fill="freeze">
+                            </animate>
+                            <animate attributeName="height" 
+                                     begin="click+0.001s" 
+                                     restart="never" 
+                                     dur="0.01s" to="0" 
+                                     fill="freeze">
+                            </animate>
+                      </svg>
+                    </section>
+                 <!--1级-->  
+                    <section>
+                      <svg viewBox="0 0 1080 1080" 
+                           preserveAspectRatio="xMinYMin meet" style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%83%8F%E7%B4%A0%E5%8D%87%E7%BA%A7%E5%A4%A7-1.png);background-size: 100% auto;
+                           background-repeat: no-repeat;width: 100%;
+                           transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);pointer-events: none;" 
+                           width="100%" 
+                           opacity="1">
+                         <rect width="1080" 
+                              height="1080" 
+                              opacity="0" 
+                              pointer-events="none">
+                         </rect>
+                         <rect width="1080" height="1080" opacity="0"    
+                               pointer-events="auto">
+                               <animate attributeName="height" 
+                                        begin="click+0.001s"   
+                                        restart="never" 
+                                        dur="0.01s" to="0" 
+                                        fill="freeze">
+                               </animate>
+                         </rect>
+                         <animate attributeName="opacity" 
+                                  begin="click" 
+                                  restart="never" 
+                                  dur="0.001s" 
+                                  from="1" to="0" 
+                                  fill="freeze">
+                         </animate>
+                       </svg>
+                    </section>
+                </section>
+                 <!--    文字：item2     -->
+                <section class="item2"
+                        style="margin: 10vh 40vw 0vh; transform: translateZ(-0.8px) scale(0.6);">
+                    <section class="para"
+                            style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                            可像素通知框永远显示的是<br>
+                            【失败，通关条件未达成】<br>
+                            到底怎么回事！<br>
+                            (点击屏幕开始对话)<br>
+                    </section>
+                </section>
+                <!--   点击切换聊天框2     -->             
+                <section name="preview-34" 
+                         style="-webkit-touch-callout:none;user-select:text;overflow: hidden;text-align: center;line-height: 0;border-radius:3vw;margin-top:40vh ;transform: translateZ(-1.0px) scale(1.5);">
+                 <!--P8-->   
+                    <section style="height:0;margin-top: -1px;"> 
+                        <svg viewBox="0 0 1080 2680" 
+                           preserveAspectRatio="xMinYMin meet" 
+                           style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/2%E8%81%8A%E5%A4%A9%E6%A1%868.PNG);
+                           background-size: 100% auto;background-repeat: no-repeat;width: 100%;transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);"
+                            width="100%" 
+                            opacity="1">
+                      </svg>
+                    </section>
+                     <!--P7-->   
+                    <section style="height: 0;line-height: 0;">
+                      <svg viewBox="0 0 1080 2680" 
+                           preserveAspectRatio="xMinYMin meet" 
+                           style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/2%E8%81%8A%E5%A4%A9%E6%A1%867.PNG);
+                           background-size: 100% auto;background-repeat: no-repeat;width: 100%;
+                           transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);" 
+                           width="100%" 
+                           opacity="1">
+                          <animate attributeName="opacity"
+                                   begin="click" 
+                                   restart="never" 
+                                   dur="0.001s" 
+                                   from="1" to="0" 
+                                   fill="freeze">
+                          </animate>
+                          <animate attributeName="height" 
+                                   begin="click+0.001s" 
+                                   restart="never" 
+                                   dur="0.01s" to="0" 
+                                   fill="freeze">
+                          </animate>
+                      </svg>
+                    </section>
+                     <!--P6-->   
+                    <section style="height: 0;line-height: 0;">
+                      <svg viewBox="0 0 1080 2680" 
+                           preserveAspectRatio="xMinYMin meet" 
+                           style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/2%E8%81%8A%E5%A4%A9%E6%A1%866.PNG);
+                           background-size: 100% auto;background-repeat: no-repeat;width: 100%;
+                           transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);" 
+                           width="100%" 
+                           opacity="1">
+                          <animate attributeName="opacity"
+                                   begin="click" 
+                                   restart="never" 
+                                   dur="0.001s" 
+                                   from="1" to="0" 
+                                   fill="freeze">
+                          </animate>
+                          <animate attributeName="height" 
+                                   begin="click+0.001s" 
+                                   restart="never" 
+                                   dur="0.01s" to="0" 
+                                   fill="freeze">
+                          </animate>
+                      </svg>
+                    </section>
+                 <!--P5-->   
+                    <section style="height: 0;line-height: 0;">
+                      <svg viewBox="0 0 1080 2680" 
+                           preserveAspectRatio="xMinYMin meet" 
+                           style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/2%E8%81%8A%E5%A4%A9%E6%A1%865.PNG);
+                           background-size: 100% auto;background-repeat: no-repeat;width: 100%;
+                           transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);" 
+                           width="100%" 
+                           opacity="1">
+                          <animate attributeName="opacity"
+                                   begin="click" 
+                                   restart="never" 
+                                   dur="0.001s" 
+                                   from="1" to="0" 
+                                   fill="freeze">
+                          </animate>
+                          <animate attributeName="height" 
+                                   begin="click+0.001s" 
+                                   restart="never" 
+                                   dur="0.01s" to="0" 
+                                   fill="freeze">
+                          </animate>
+                      </svg>
+                    </section>
+                     <!--P4-->  
+                    <section style="height: 0;line-height: 0;">
+                        <svg viewBox="0 0 1080 2680" 
+                             preserveAspectRatio="xMinYMin meet" style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/2%E8%81%8A%E5%A4%A9%E6%A1%864.PNG);
+                             background-size: 100% auto;background-repeat: no-repeat;width: 100%;
+                             transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);" width="100%" opacity="1">
+                              <animate attributeName="opacity"
+                                       begin="click" 
+                                       restart="never" 
+                                       dur="0.001s"
+                                       from="1" to="0" 
+                                       fill="freeze">
+                              </animate>
+                              <animate attributeName="height" 
+                                       begin="click+0.001s" 
+                                       restart="never" 
+                                       dur="0.01s" to="0" 
+                                       fill="freeze">
+                              </animate>
+                        </svg>
+                    </section>
+                    <!--P3-->  
+                    <section style="height: 0;line-height: 0;border-radius:20px;">
+                        <svg viewBox="0 0 1080 2680" 
+                             preserveAspectRatio="xMinYMin meet" style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/2%E8%81%8A%E5%A4%A9%E6%A1%863.PNG);
+                             background-size: 100% auto;background-repeat: no-repeat;width: 100%;
+                             transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);" width="100%" opacity="1">
+                              <animate attributeName="opacity"
+                                       begin="click" 
+                                       restart="never" 
+                                       dur="0.001s"
+                                       from="1" to="0" 
+                                       fill="freeze">
+                              </animate>
+                              <animate attributeName="height" 
+                                       begin="click+0.001s" 
+                                       restart="never" 
+                                       dur="0.01s" to="0" 
+                                       fill="freeze">
+                              </animate>
+                        </svg>
+                    </section>
+                 <!--P2-->  
+                    <section style="height: 0;line-height: 0;border-radius:20px;">
+                        <svg viewBox="0 0 1080 2680" 
+                             preserveAspectRatio="xMinYMin meet" style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/2%E8%81%8A%E5%A4%A9%E6%A1%862.PNG);
+                             background-size: 100% auto;background-repeat: no-repeat;width: 100%;
+                             transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);" width="100%" opacity="1">
+                              <animate attributeName="opacity"
+                                       begin="click" 
+                                       restart="never" 
+                                       dur="0.001s"
+                                       from="1" to="0" 
+                                       fill="freeze">
+                              </animate>
+                              <animate attributeName="height" 
+                                       begin="click+0.001s" 
+                                       restart="never" 
+                                       dur="0.01s" to="0" 
+                                       fill="freeze">
+                              </animate>
+                        </svg>
+                    </section>
+                 <!--P1-->  
+                    <section>
+                      <svg viewBox="0 0 1080 2335" 
+                           preserveAspectRatio="xMinYMin meet" style="background-image: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/2%E8%81%8A%E5%A4%A9%E6%A1%861.PNG);background-size: 100% auto;
+                           background-repeat: no-repeat;width: 100%;
+                           transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);-webkit-transform: rotateZ(0.00deg);-moz-transform: rotateZ(0.00deg);-o-transform: rotateZ(0.00deg);pointer-events: none;border-radius:20px;" 
+                           
+                           width="100%" 
+                           opacity="1">
+                         <rect width="1080" 
+                              height="2080" 
+                              opacity="0" 
+                              pointer-events="none"
+                              border-radius="20">
+                         </rect>
+                         <rect width="1080" 
+                               height="1080" 
+                               opacity="0"    
+                               pointer-events="auto"
+                               border-radius="20">
+                               
+                               <animate attributeName="height" 
+                                        begin="click+0.001s"   
+                                        restart="never" 
+                                        dur="0.01s" to="0" 
+                                        fill="freeze">
+                               </animate>
+                         </rect>
+                         <animate attributeName="opacity" 
+                                  begin="click" 
+                                  restart="never" 
+                                  dur="0.001s" 
+                                  from="1" to="0" 
+                                  fill="freeze">
+                         </animate>
+                       </svg>
+                    </section>
+                  </section>
+                 <!--    文字：item2     -->
+                <section class="item2"
+                        style="margin: 10vh 40vw 0vh; transform: translateZ(-0.8px) scale(0.6);">
+                    <section class="para"
+                            style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                            【——像素世界N周目——】<br>
+                            【成功，通关条件已达成】<br>
+                            “嘿小子，干得漂亮！”<br>
+                            太沙柯基又不知从哪冒了出来<br>
+                            “临别之际，送你个礼物，拿着”<br>
+                            一团像素划出条弧线，刚好落到你的手里<br>
+                    </section>
+                </section>
+
+                <!--    图片：item1     -->
+                <!--   金克拉1     -->
+                <section class="item1"
+                        style="margin: -10vh 40vw 0; transform: translateZ(-1px) scale(0.8);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E9%87%91%E5%9D%B7%E5%9E%83-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    金克拉2     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.9px) scale(0.9);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E9%87%91%E5%9D%B7%E5%9E%83-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    金克拉3     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.8px) scale(0.8);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E9%87%91%E5%9D%B7%E5%9E%83-3.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                 <!--    文字：item2     -->
+                <section class="item2"
+                        style="margin: 10vh 40vw 0vh; transform: translateZ(-0.8px) scale(0.6);">
+                    <section class="para"
+                            style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                            “这叫金克拉，是开启下一个世界的钥匙<br>
+                            我们应该很快就能再见的”<br>
+                            什么鬼？<br>
+                            【倒也不必再见啦】<br>
+                    </section>
+                </section>
+                 <!--    文字：item2     -->
+                <section class="item2"
+                        style="margin: -10vh 40vw 0vh; transform: translateZ(-0.8px) scale(0.6);">
+                    <section class="para"
+                            style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                            你挥手作别<br>
+                            光影流转间<br>
+                            尽是山川，尽是墨香<br>
+                            你蹙眉环顾<br>
+                            黑白浓淡，但少颜染<br>
+                    </section>
+                </section> 
+                <!--    图片：item1     -->
+                <!--   水墨     -->
+                <section class="item1"
+                        style="margin: -20vh 40vw 0; transform: translateZ(-1px) scale(1.2);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E6%B0%B4%E5%A2%A8.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section> 
+                <!--    文字：item2     -->
+                <section class="item2"
+                        style="margin: -10vh 0vw 0vh; transform: translateZ(-0.5px) scale(0.5);">
+                    <section class="para"
+                            style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                            远远地，你突然望见两抹流动的色彩<br>
+                            一抹绯色，一抹翡色<br>
+                            不等靠近，就已涌来<br>
+                            <br><br>
+                            “在下鹿班”“鄙人墨翟”<br>
+                            【初识君，愿知何来】<br>
+                            <br><br><br>
+                            不，不知<br>
+                            你支吾作答，作揖拱手<br>
+                            <br><br><br>
+                            “无妨。实不瞒君，吾二人水墨经年，黑白浓淡皆已，独少颜染”<br>
+                            【君可愿执笔相助，共绘此间山川】<br>
+                            <br><br>
+                            言罢，但只见：<br>
+                            绯角下倾，翠羽斜指<br>
+                            你定睛望眼，几多石彩矿颜<br>
+                    </section>
+                </section>
+                <!--    图片：item1     -->
+                <!--   古风1-4     -->
+                <section class="item1"
+                        style="margin: -40vh 40vw 0; transform: translateZ(-0.6px) scale(1.2);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%8F%A4%E9%A3%8E1-4.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section> 
+                <!--    视差素材：item3     -->
+                <!--    古风1-1     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.9px) scale(0.9);">
+                    <!--   模糊边缘  -->
+                     <section class="picture"
+                        style="margin-top: 0vw;    position: absolute;
+                        content: '';
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        left: 0;
+                        box-shadow:0 0 50px 30px #000000 inset;">
+                    </section>
+
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%8F%A4%E9%A3%8E1-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    图片：item1     -->
+                <!--   古风1-2     -->
+                <section class="item1"
+                        style="margin: -40vh 40vw 0; transform: translateZ(-0.7px) scale(1.2);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%8F%A4%E9%A3%8E1-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    文字：item2     -->
+                <section class="item2"
+                         style="margin: -50vh 0vw 0vh; transform: translateZ(-0.5px) scale(0.5);">
+                    <section class="para"
+                             style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                                    【石赭着山，万山红遍】<br>
+                                    【石绿着林，层林尽染】<br>
+                                    【石青着川，漫江碧透】<br>
+                                    【石黛着舟，百舸争流】<br>
+                    </section>
+                </section>                
+                <!--    图片：item1     -->
+                <!--   古风1-3     -->
+                <section class="item1"
+                        style="margin: -40vh 40vw 0; transform: translateZ(-0.6px) scale(1.2);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%8F%A4%E9%A3%8E1-3.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    文字：item2     -->
+                <section class="item2"
+                         style="margin: 20vh 0vw -30vh; transform: translateZ(-0.5px) scale(0.5);">
+                    <section class="para"
+                             style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                                    班曰：“水墨山川终成，在下感激不尽”<br>
+                                    翟曰：“鄙人亦如是<br>
+                                    【愿君乘此鸢，相与归去来】”<br>
+                    </section>
+                </section>       
+                <!--    图片：item1     -->
+                <!--   古风2-1     -->
+                <section class="item1"
+                        style="margin: -10vh 40vw 0; transform: translateZ(-1px) scale(0.8);">
+                    <!--   模糊边缘  -->
+                    <section class="picture"
+                     style="margin-top: 0vw;    position: absolute;
+                     content: '';
+                     width: 100%;
+                     height: 100%;
+                     top: 0;
+                     left: 0;
+                     box-shadow:0 0 20px 20px #000000 inset;">
+                    </section>
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%8F%A4%E9%A3%8E2-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    古风2-2     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.9px) scale(1.4);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%8F%A4%E9%A3%8E2-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    视差素材：item3     -->
+                <!--    古风2-3     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.6px) scale(1.0);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%8F%A4%E9%A3%8E2-3.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--  第三章   -->
+                <!--    文字：item2     -->
+                <section class="item2"
+                         style="margin: 20vh 0vw 0vh; transform: translateZ(-0.5px) scale(0.5);">
+                    <section class="para"
+                             style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                                    水墨淡山川，木鸢飞瞬转<br>
+                                    坊隅阡陌盛，街灯烟灶繁<br>
+                                    <br>
+                                    你推开门，茶馆酒家的气味迎面扑来<br>
+                                    服饰不一的人们在街头巷尾交谈<br>
+                                    社火灯花中，你仿佛看见了两个熟悉而陌生的面孔<br>
+                    </section>
+                </section>  
+
+                <!--    图片：item1     -->
+                <!--   民国2-1     -->
+                <section class="item1"
+                        style="margin: -10vh 40vw 0; transform: translateZ(-1px) scale(1.0);">
+                    <!--   模糊边缘  -->
+                    <section class="picture"
+                     style="margin-top: 0vw;    position: absolute;
+                     content: '';
+                     width: 100%;
+                     height: 100%;
+                     top: 0;
+                     left: 0;
+                     box-shadow:0 0 20px 20px #000000 inset;">
+                    </section>
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E6%B0%91%E5%9B%BD2-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    民国2-2     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.9px) scale(1.2);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E6%B0%91%E5%9B%BD2-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    文字：item2     -->
+                <section class="item2"
+                         style="margin: 20vh 0vw 10vh; transform: translateZ(-0.5px) scale(0.5);">
+                    <section class="para"
+                             style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                                    “这位小友，初次见面，不胜荣幸<br>
+                                    【在下占天鼬，这是猫一升】”<br>
+                                    <br>
+                                    占天鼬说着，右爪轻抬礼帽致意<br>
+                                    猫一升不苟言笑，把玩着手中的刻度，耳朵微动<br>
+                                    <br>
+                                    “我们正在修建通往一家咖啡馆的铁路，<br>
+                                    你能帮忙把它的轨道铺好吗?”<br>
+                                    <br>
+                                    又来？你暗念奇怪，点了点头<br>
+                    </section>
+                </section> 
+                <!--    图片：item1     -->
+                <!--   民国1-1     -->
+                <section class="item1"
+                        style="margin: -10vh 40vw 0; transform: translateZ(-1px) scale(1.0);">
+                <!--   模糊边缘  -->
+                    <section class="picture"
+                            style="margin-top: 0vw;    position: absolute;
+                            content: '';
+                            width: 100%;
+                            height: 100%;
+                            top: 0;
+                            left: 0;
+                            box-shadow:0 0 5px 5px #ba28284a inset;">
+                   </section>
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E6%B0%91%E5%9B%BD1-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    民国1-2     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.9px) scale(1.2);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E6%B0%91%E5%9B%BD1-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    民国1-3     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.9px) scale(1.2);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E6%B0%91%E5%9B%BD1-3.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+
+                <!--    图片：item1     -->
+                <!--   民国3-1     -->
+                <section class="item1"
+                        style="margin: 30vh 40vw 0; transform: translateZ(-1px) scale(1.0);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E6%B0%91%E5%9B%BD3-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    民国3-2     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.9px) scale(1.2);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E6%B0%91%E5%9B%BD3-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    民国3-3     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.8px) scale(1.2);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E6%B0%91%E5%9B%BD3-3.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    文字：item2     -->
+                <section class="item2"
+                         style="margin: -40vh 0vw 10vh; transform: translateZ(-0.5px) scale(0.5);">
+                    <section class="para"
+                             style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                                    一节节轨道铺设在下<br>
+                                    一声声钟摆摇曳在旁<br>
+                                    汽笛鸣响，燃炉动转<br>
+                                    【民国铁路，今日起，正式通车】<br>
+                                    <br>
+                                    猫一升甩出修长的尾巴，将你捞上了车厢<br>
+                                    占天鼬斜倚车门，早已等候多时<br>
+                                    “【走，一起去喝咖啡吧】”<br>
+                                    <br>
+                    </section>
+                </section>  
+                <!--    文字：item2     -->
+                <section class="item2"
+                         style="margin: 20vh 0vw -30vh; transform: translateZ(-0.5px) scale(0.5);">
+                    <section class="para"
+                             style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                                    熟悉的昼白没有出现<br>
+                                    在驶向未知方向的列车前<br>
+                                    一个边缘萦着亮光的裂缝<br>
+                                    却悄悄浮出沥青路面<br>
+                                    <br>
+                                    眼前白雾迷蒙<br>
+                                    像是在雪崩里颠倒一遭<br>
+                                    等你再次睁眼<br>
+                                    只看见一面青色天花板<br>
+                                    <br>
+                    </section>
+                </section> 
+
+                <!--    图片：item1     -->
+                <!--   迷雾1     -->
+                <section class="item1"
+                        style="margin: 30vh 40vw 0; transform: translateZ(-1px) scale(1.0);">
+                    <!--   模糊边缘  -->
+                    <section class="picture"
+                     style="margin-top: 0vw;    position: absolute;
+                     content: '';
+                     width: 100%;
+                     height: 100%;
+                     top: 0;
+                     left: 0;
+                     box-shadow:0 0 20px 20px #ffffff;">
+                    </section>                           
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E8%BF%B7%E9%9B%BE-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    迷雾2     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.9px) scale(1.2);">
+                    <!--   模糊边缘  -->
+                    <section class="picture"
+                     style="margin-top: 0vw;    position: absolute;
+                     content: '';
+                     width: 100%;
+                     height: 100%;
+                     top: 0;
+                     left: 0;
+                     box-shadow:0 0 20px 20px #000000 inset;">
+                    </section>                           
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E8%BF%B7%E9%9B%BE-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    文字：item2     -->
+                <section class="item2"
+                         style="margin: 0vh 0vw -10vh; transform: translateZ(-0.5px) scale(0.5);">
+                    <section class="para"
+                             style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                                    “醒了吗”<br>
+                                    一声熟悉的问话传来<br>
+                                    <br>
+                                    【这是？店长！】<br>
+                                    <br>
+                                    “或者，你可以叫我砼尼老师”<br>
+                    </section>
+                </section> 
+                <!--    图片：item1     -->
+                <!--   砼尼1-1     -->
+                <section class="item1"
+                        style="margin: 30vh 40vw 0; transform: translateZ(-1px) scale(1.0);">
+                    <!--   模糊边缘  -->
+                    <section class="picture"
+                     style="margin-top: 0vw;    position: absolute;
+                     content: '';
+                     width: 100%;
+                     height: 100%;
+                     top: 0;
+                     left: 0;
+                     box-shadow:0 0 20px 20px #000000 inset;">
+                    </section>                        
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E7%A0%BC%E5%B0%BC1-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    砼尼1-2     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.9px) scale(1.2);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E7%A0%BC%E5%B0%BC1-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    文字：item2     -->
+                <section class="item2"
+                         style="margin: -80vh 0vw 10vh; transform: translateZ(-0.5px) scale(0.5);">
+                    <section class="para"
+                             style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                                    他轻笑着，瞥了眼一旁的墙画<br>
+                                    <br>
+                                    “石炭纪元之后，砼尼大陆就是宇宙中唯一的现存世界，<br>
+                                    我的那家咖啡店，则是连接平行时空的中转站。<br>
+                                    刚才穿梭回来，你恰好碰上时空裂隙，<br>
+                                    万幸的是，太沙柯基给你的东西派上了用场，我才能及时赶到”<br>
+                                    <br>
+                                    他棕色的发梢在说话里沉下又翘起<br>
+                                    如同他的嘴角<br>
+                                    “快跟其他服务生一起走吧<br>
+                                    【店庆的事还有的你忙活呢】”<br>
+                                    <br>
+                                    
+                    </section>
+                </section> 
+
+                <!--    图片：item1     -->
+                <!--   店庆1-1     -->
+                <section class="item1"
+                        style="margin: 30vh 40vw 0; transform: translateZ(-1px) scale(1.0);" >
+                    <section class="picture2"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%BA%97%E5%BA%861-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    店庆1-2     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.9px) scale(1.1);">
+                    <section class="picture2"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%BA%97%E5%BA%861-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    店庆1-4     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.7px) scale(1.1);">
+                    <section class="picture2"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%BA%97%E5%BA%861-4.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section> 
+                <!--    视差素材：item3     -->
+                <!--    店庆1-3     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.5px) scale(0.7);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%BA%97%E5%BA%861-3.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section> 
+                
+                <!--    视差素材：item3     -->
+                <!--    店庆1-5    -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.6px) scale(1.1);">
+                    <section class="picture2"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%BA%97%E5%BA%861-5.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section> 
+                <!--    图片：item1     -->
+                <!--   店庆1-4过渡     -->
+                <section class="item1"
+                        style="margin: -80vh 40vw 0; transform: translateZ(-1px) scale(1.0);" >
+                    <section class="picture2"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%BA%97%E5%BA%861-4.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                
+                <!--    文字：item2     -->
+                <section class="item2"
+                         style="margin: -100vh 0vw 10vh; transform: translateZ(-0.5px) scale(0.5);">
+                    <section class="para"
+                             style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                                    话音未落<br>
+                                    五彩的颜色已然开始流动<br>
+                                    时空的碎影裹住你们，梦幻如泡沫<br>
+                                    泡沫破散<br>
+                                    咖啡店的桌椅缓缓呈现<br>
+                                    
+                    </section>
+                </section>
+                <!--    图片：item1     -->
+                <!--   店庆2-1     -->
+                <section class="item1"
+                        style="margin: 10vh 40vw 0; transform: translateZ(-1px) scale(1.0);">
+                    <!--   外发光  -->
+                    <section class="picture"
+                     style="margin-top: 0vw;    position: absolute;
+                     content: '';
+                     width: 100%;
+                     height: 100%;
+                     top: 0;
+                     left: 0;
+                     box-shadow:0 0 20px 20px #ffb700;">
+                    </section>    
+                        <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%BA%97%E5%BA%862-1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    店庆2-2    -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.9px) scale(1.1);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%BA%97%E5%BA%862-2.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    文字：item2     -->
+                <section class="item2"
+                         style="margin: -100vh 0vw 10vh; transform: translateZ(-0.5px) scale(0.5);">
+                    <section class="para"
+                             style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                                    <br>
+                                    “嘿小子，怎么招待客人的呀”<br>
+                                    一句话突然冒了出来，是太沙柯基！<br>
+                                    <br>
+                                    你突然晃神<br>
+                                    环顾四周，惊喜万分<br>
+                                    <br>
+                                    貘尔、鹿班、墨翟<br>
+                                    占天鼬、猫一升、砼尼<br>
+                                    全都在这里<br>
+                                    <br>
+                                    他们正一同向你发出致意<br>
+                                    【来自远方的砼行者】<br>
+                                    【感谢你的盛情邀请】<br>
+                                    
+                    </section>
+                </section>
+                <!--    图片：item1     -->
+                <!--   店庆2-3     -->
+                <section class="item1"
+                        style="margin: -10vh 40vw 0; transform: translateZ(-1px) scale(0.8);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%BA%97%E5%BA%862-3.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+                <!--    视差素材：item3     -->
+                <!--    店庆2-4     -->
+                <section class="item3"
+                        style=" transform: translateZ(-0.75px) scale(0.8);">
+                    <section class="picture"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E5%BA%97%E5%BA%862-4.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>                
+                
+                <!--    文字：item2     -->
+                <section class="item2"
+                         style="margin: -50vh 0vw 10vh; transform: translateZ(-0.5px) scale(0.5);">
+                    <section class="para"
+                             style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                                    盛情难却，邀约难逢<br>
+                                    砼尼牵起你无措的手<br>
+                                    走向徐徐升起的舞台悬盘<br>
+                                    <br>
+                                    “【现在，一切时空的中心属于你】”<br>
+                                    
+                    </section>
+                </section>
+
+                <!--    文字：item2     -->
+                <section class="item2"
+                         style="margin: 10vh 0vw 10vh; transform: translateZ(-0.5px) translateX(10vw)scale(0.5);">
+                    <section class="para"
+                             style="font-family: sans;color: white;text-align: left;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                                    插画丨雷梓励<br>
+                                    文案丨叶哲<br>
+                                    推送制作丨刘一霖 司开明 雷梓励<br>
+                                    友情协助丨美老师<br> <br>
+                                    
+                    </section>
+                </section>                
+                <!--    图片：item1     -->
+                <!--   集赞奖励     -->
+                <section class="item1"
+                        style=" transform: translateZ(-1px) scale(1.0);">    
+                        <section class="picture3"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6%2F%E7%A7%AF%E8%B5%9E%E5%A5%96%E5%8A%B1.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    图片：item1     -->
+                <!--   logo     -->
+                <section class="item1"
+                        style=" margin: -50vh 0vw 10vh; transform: translateZ(-1px) scale(1.0);">    
+                        <section class="picture3"
+                            style="margin-top: 0vw; background: url(https://tongxingzhe-1315181288.cos.ap-beijing.myqcloud.com/%E7%A0%BC%E8%A1%8C%E8%80%85%E6%BA%90%E6%96%87%E4%BB%B6/%E8%B5%84%E6%BA%90%203.png) center center no-repeat;background-size: 100% 100%;">
+                    </section>
+                </section>
+
+                <!--    文字：item2     -->
+                <section class="item2"
+                         style="margin: -70vh 0vw 10vh; transform: translateZ(-1px) scale(0.5);">
+                    <section class="para"
+                             style="font-family: sans;color: white;text-align: center;font-weight: normal;text-shadow: 0 0 10px grey,0 0 20px grey,0 0 30px grey,0 0 40px grey;letter-spacing: 01px;">
+                                    龙湖集团1993年创建于重庆，发展于全国，<br>涵盖地产开发、商业投资、租赁住房、空间服务、智慧营造等多航道业务，<br>并积极试水医养、产城等创新领域，目前业务已遍布全国100余个城市。<br><br>
+                                   
+                                    2009年，龙湖集团控股有限公司（股份代码：960）于香港联交所主板上市，<br>2021年被纳入恒生指数成份股，入选《财富》世界500强，<br>连续十余年位列《福布斯》全球企业2000强。<br><br>
+                                    龙湖公益基金会(Longfor Foundation)是由龙湖集团发起，<br>
+                                    2020年经深圳市民政局批准成立的非公募基金会。<br>
+                                    龙湖公益基金会以“善待你一生”为出发点，<br>围绕全生命周期，在助学兴教、关爱儿童、助老扶贫等领域，<br>通过聚焦科学养育、儿童医疗、素养教育、职业教育等，<br>让儿童拥有更加健康、快乐成长的机会，<br>让少年有陪伴一生的习惯、兴趣和热爱，<br>让青年有自我实现、追求梦想的能力，让老年人乐享晚年。<br>
+                                    <br>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+    <!--  占位符  -->
+    <section class="placeholder">
+    </section>
+</section>
+
+</body>
+</html>
